@@ -1,5 +1,6 @@
 function genpassword() {
   var pass = document.getElementById("password");
+
   //var inputnumber = document.getElementById("inputlangpassword");
   //var passlenght = inputnumber;
   var passlenght = 12;
@@ -13,3 +14,6 @@ function genpassword() {
   }
   document.getElementById("password").value = password;
 }
+
+var name = prompt("Enter your name  : ");
+console.log(`Your name is   : ${name}`);
