@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(242, 204, 247);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.lang-password {
+  font-size: 23px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.input-lang {
+  margin-bottom: 40px;
+}
+
+.title-checkbox {
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.check-box {
+  font-size: 17px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.password {
+  font-size: 17px;
+  margin-bottom: 25px;
+  text-align: center;
+}

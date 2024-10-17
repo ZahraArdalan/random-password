@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random-password</title>
+  </head>
+  <body>
+    <h1 class="title">Random password!</h1>
+    <!-- Enter password length -->
+    <div class="lang-password" id="langpassword ">
+      <p class="input-lang">Enter password length:</p>
+      <input class="input-lang-password" id="inputlangpassword" type="number" />
+    </div>
+    <!-- Select password items -->
+    <p class="title-checkbox">
+      Which parameters should be used in your password?
+    </p>
+
+    <div class="check-box">
+      <label>Number</label>
+      <input type="checkbox" id="allselect" />
+
+      <label>capital letters</label>
+      <input type="checkbox" />
+
+      <label>small letters</label>
+      <input type="checkbox" />
+
+      <label>Symbols</label>
+      <input type="checkbox" />
+    </div>
+    <!-- give password -->
+    <p class="password">Your password:</p>
+    <div class="write-password"></div>
+  </body>
+</html>
