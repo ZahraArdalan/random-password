@@ -47,5 +47,25 @@ body {
 .Passwordgeneration {
   font-size: 15px;
   margin-bottom: 25px;
-  margin-left: 565px;
+  margin-left: 555px;
+  background-color: #9437a0;
+
+  color: rgb(205, 213, 226); /* رنگ متن سفید */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #431149; /* رنگ تیره‌تر هنگام هاور */
+}
+
+.write-password {
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-left: 550px;
+}
+#password {
+  text-align: center;
 }
