@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,17 +19,23 @@
     </p>
 
     <div class="check-box">
-      <label>Number</label>
-      <input type="checkbox" id="allselect" />
+      <label >Number</label>
+      <input    onclick="checkNumber()"        type="checkbox" id="numbercheck" />
 
       <label>capital letters</label>
-      <input type="checkbox" />
+      <input     onclick="checkcapital()"        type="checkbox"    id="capitalcheck"   />
 
       <label>small letters</label>
-      <input type="checkbox" />
-
+      <input     onclick="checksmall()"       type="checkbox"    id="smallcheck" />
+   
       <label>Symbols</label>
-      <input type="checkbox" />
+      <input   onclick="checkSymbols()"          type="checkbox"      id="Symbolscheck"    />
+
+
+      <label>All</label>
+      <input   onclick="checkAll()"          type="checkbox"      id="Allcheck"    />
+
+
     </div>
     <div>
       <button
