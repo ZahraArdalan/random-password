@@ -105,20 +105,20 @@ function genpassword() {
       capitalcheck()
 
     
-    }else if(checkBoxsmall.checked == true){
-      smallcheck()
+    } else if(checkBoxsmall.checked == true){
+      smallcheck();
 
-    }else if(checkBoxSymbols.checked == true){
-      checkSymbols()
+    } else if(checkBoxSymbols.checked == true){
+      checkSymbols();
     
     }else if(checkBoxAll.checked == true){
-      checkAll()
+      checkAll();
     
     }
 
     
     else {
-      alert("Enter the information correctly!");;
+      alert("Enter the information correctly!");
     }
 
 }
